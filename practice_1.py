@@ -130,17 +130,45 @@ print(factorial(5))"""
 
 # Symmetrical problem
 
-"""def sym(a):
-    print(a[::1] == a[::-1])
+def is_palindrome(string):
+    newString = string.lower()
+
+    print(newString[::1] == newString[::-1])
     
-sym([1,2,3,2,1])"""
+is_palindrome("Racecar")
 
-# Find the second best
 
-def find(a):
+
+"""def find(a):
     y = sorted(a,reverse=True)
     return y[1]
-print(find([23,78,96,32]))
+print(find([23,78,96,32]))"""
+
+
+"""def reverse_string (a):
+    b = list(a)
+    c = []
+    string = ""
+
+    while (len(b)):
+        c.append(b.pop())
+    for x in c:
+        string += str(x)
+    print(string)
+reverse_string("apple")    """
+
+"""def count_vowels(string):
+    b = []
+    for char in string:
+        if char in 'aeiou':
+            b.append(char)
+    print(len(b))
+
+
+count_vowels('aaple')"""
+
+
+    
 
 
     
