@@ -130,12 +130,12 @@ print(factorial(5))"""
 
 # Symmetrical problem
 
-def is_palindrome(string):
+"""def is_palindrome(string):
     newString = string.lower()
 
     print(newString[::1] == newString[::-1])
     
-is_palindrome("Racecar")
+is_palindrome("Racecar")"""
 
 
 
