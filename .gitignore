@@ -2,3 +2,5 @@
 AppData/
 Temp/
 .vscode/
+authentication.js
+node_modules
